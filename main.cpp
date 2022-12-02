@@ -12,7 +12,7 @@ int main ()
     int *pointer1; //declares pointer.
     int *pointer2; //declares pointer.
     pointer1 = array1; //we would think this assigns the memory address of the entire array, but it actually only assigns the first element's memory address. //same as &array[0].
-    pointer2 = &array1[0]; //this is assigns the same hex# as above line code.
+    pointer2 = &array1[0]; //this assigns the same hex# as above line code.
     cout << *pointer1 << endl; //prints value 5.
     cout << pointer1 << endl; //prints address of value 5.
     cout << *pointer2 << endl; //prints value 5 - same as line 16.
