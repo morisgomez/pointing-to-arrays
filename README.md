@@ -1,2 +1,2 @@
 # pointers-with-arrays
-Introduction to using pointers with arrays.
+Accessing array elements and addresses via pointers.
